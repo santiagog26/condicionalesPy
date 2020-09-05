@@ -1,6 +1,11 @@
 numero = int(input("Ingresa un número:"))
 
 if (numero % 2) == 0:
-    print("El número es par")
+    par = True
 else:
-    print("El número es impar")
+    par = False
+
+if par:
+    print("Es par")
+else:
+    print("Es impar")
