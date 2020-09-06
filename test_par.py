@@ -1,5 +1,5 @@
 import pytest
-from numero_par import numero_par
+from condicionales import numero_par
 
 def test_par():
     assert numero_par(10) == True  

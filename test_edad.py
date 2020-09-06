@@ -1,5 +1,5 @@
 import pytest
-from edad import calculo_edad
+from condicionales import calculo_edad
 
 def test_calculo_edad():
     assert calculo_edad(10,2010) == 70  

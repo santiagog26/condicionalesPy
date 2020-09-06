@@ -1,5 +1,5 @@
 import pytest
-from palabras import palabras
+from condicionales import palabras
 
 def test_palabras():
     assert palabras("Hola") == ("H", "a")
