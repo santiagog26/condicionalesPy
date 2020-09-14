@@ -1,4 +1,4 @@
-print("Bienvenido, aquí están los métodos de los tres primeros problemas")
+print("Bienvenido, aquí están los métodos de los problemas de condicionales")
 
 def calculo_edad(edad_actual, año_actual):
     if edad_actual > 0:

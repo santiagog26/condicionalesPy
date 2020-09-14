@@ -1,5 +1,5 @@
 import pytest
-from multiplos import multiplos_rango
+from ciclos import multiplos_rango
 
 def test_multiplos_rango():
     assert multiplos_rango(2,21,3) == [3,6,9,12,15,18,21]

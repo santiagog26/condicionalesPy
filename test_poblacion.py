@@ -1,5 +1,5 @@
 import pytest
-from poblacion import superar_poblacion
+from ciclos import superar_poblacion
 
 def test_superar_poblacion():
     assert superar_poblacion(35000000, 19900000, 0.02, 0.03) == 2078
