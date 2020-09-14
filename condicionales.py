@@ -5,6 +5,7 @@ def calculo_edad(edad_actual, año_actual):
         if año_actual > 0:
             años = 2070 - año_actual 
             edad_futura = edad_actual + años
+            print(f"La edad que tendrás en 2070 es de {edad_futura}")
             return edad_futura
         else:
             print("El año ingresado es negativo")
